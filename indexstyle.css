@@ -1,0 +1,33 @@
+
+body {
+    background-color: #f0f8f0;
+    font-family: Arial, sans-serif;
+}
+
+.fenetre {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.fenetre:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+h1 {
+    color: #2e7d32;
+    font-weight: bold;
+}
